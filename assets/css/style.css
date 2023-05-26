@@ -30,8 +30,32 @@ h2 {
     letter-spacing: 4px;
 }
 
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+
 #menu li {
     float: right;
     list-style-type: none;
+    /* no dots in front of the list items */
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    /* removes the lines on menu items */
+    color: inherit;
+    /* to inherit the color from the closest parent that has the color set. (<body> element). */
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    /* to underline when we hover over the menu with the cursor. */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
