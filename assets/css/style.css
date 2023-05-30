@@ -163,7 +163,7 @@ hr {
 }
 
 .left-view-heading {
-    width: 60%;
+    width: 70%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -173,7 +173,7 @@ hr {
 }
 
 .right-view-heading {
-    width: 60%;
+    width: 70%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -218,7 +218,7 @@ hr {
     /* need to give the div a height or the image won’t show up. */
     height: 100%;
 
-    /* to make the image look circle*/
+    /* to make the image look circle */
     border-radius: 50%;
 
 
