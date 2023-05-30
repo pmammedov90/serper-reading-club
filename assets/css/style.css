@@ -33,6 +33,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    /* .the text will vertically center itself within its line-height.*/
 }
 
 
@@ -58,4 +59,11 @@ h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+#reading-child-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/reading-child.webp') no-repeat center center;
+    /* to prevent the image being repeated in the event of it being smaller than the window.*/
 }
