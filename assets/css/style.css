@@ -181,6 +181,7 @@ hr {
     margin-bottom: 50px;
     /* put space between the divs */
 }
+
 /* icons on the left and the right-hand side are aligned towards the center image. */
 .right-view-heading h2 {
     text-align: right;
@@ -188,4 +189,37 @@ hr {
 
 .right-view-heading p {
     text-align: right;
+}
+
+#motto {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 550px;
+    height: 550px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+
+    /* to make the circle, works for containers with an equal height and width dimensions */
+    border-radius: 50%;
+
+    /* centering the circle container */
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/book-reader.jpg') no-repeat center center;
+
+    /* need to give the div a height or the image won’t show up. */
+    height: 100%;
+
+    /* to make the image look circle*/
+    border-radius: 50%;
+
+
 }
