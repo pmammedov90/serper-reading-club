@@ -61,9 +61,35 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* reading child image */
+
+#reading-child-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    /* an alternative to clear: both. */
+
+}
+
 #reading-child-image {
     height: 600px;
     width: 100%;
     background: url('../images/reading-child.webp') no-repeat center center;
     /* to prevent the image being repeated in the event of it being smaller than the window.*/
+
+    /* zoom effect will run on loading page*/
+    animation-name: reading-child-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* making a zoom for reading child image on home page */
+
+@keyframes reading-child-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1); /* increase in size by 10% */
+    }
 }
