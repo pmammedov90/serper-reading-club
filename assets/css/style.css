@@ -155,3 +155,37 @@ h2 {
     /* there's no float : center, so set the margin to "0 auto" to center the entire div.*/
     margin: 0 auto;
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-view-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    /* we ensure that each content block is aligned vertically. */
+    margin-bottom: 50px;
+    /* put space between the divs */
+}
+
+.right-view-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    /* we ensure that each content block is aligned vertically. */
+    margin-bottom: 50px;
+    /* put space between the divs */
+}
+/* icons on the left and the right-hand side are aligned towards the center image. */
+.right-view-heading h2 {
+    text-align: right;
+}
+
+.right-view-heading p {
+    text-align: right;
+}
