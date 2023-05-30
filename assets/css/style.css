@@ -61,13 +61,24 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* reading child image */
+
+/* reading child image and cover text */
 
 #reading-child-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     /* an alternative to clear: both. */
+
+    position: relative;
+    /* set its position to relative so that the child containers can set their absolute position relative to it. */
+
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+
 
 }
 
@@ -89,7 +100,29 @@ h2 {
     from {
         transform: scale(1);
     }
+
     to {
-        transform: scale(1.1); /* increase in size by 10% */
+        transform: scale(1.1);
+        /* increase in size by 10% */
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Libre Baskerville, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(75, 68, 83, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
