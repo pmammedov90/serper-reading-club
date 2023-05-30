@@ -23,6 +23,10 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+
+    margin-left: 30px;
+    /* to keep away the logo from the side of the page. */
+
 }
 
 #menu {
@@ -33,7 +37,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
-    /* .the text will vertically center itself within its line-height.*/
+    /* the text will vertically center itself within its line-height.*/
 }
 
 
@@ -125,4 +129,29 @@ h2 {
     right: 150px;
 
     position: absolute;
+}
+
+
+/* reading club motivational quotes */
+#club-motives {
+    height: 600px;
+}
+
+#left-view {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-view {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-view {
+    width: 33%;
+
+    /* there's no float : center, so set the margin to "0 auto" to center the entire div.*/
+    margin: 0 auto;
 }
