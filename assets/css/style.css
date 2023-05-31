@@ -247,3 +247,23 @@ hr {
 #meetup-times h2 {
     color: #fafafa;
 }
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+    /* to line the social media icons in a line*/
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
