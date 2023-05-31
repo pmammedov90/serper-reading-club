@@ -302,19 +302,22 @@ footer {
 .register-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 40px;
 }
 
 .register-form>h2 {
     color: #fafafa;
     bottom: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
 }
 
 .text-input {
+    padding-top: 4px;
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -332,7 +335,7 @@ footer {
     margin: 5px 0px 20px 0px;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    border-color: #f16c6b;
+    border-color: #f5ba3b;
 }
 
 .register-button {
@@ -341,7 +344,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #cf8f04;
     color: #fafafa;
     display: block;
 }
@@ -353,7 +356,7 @@ footer {
     text-align: center;
     font-size: 100%;
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #cf8f04;
     display: block;
 
 }
