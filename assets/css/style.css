@@ -267,3 +267,21 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+#reading-times-page div {
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+#reading-times-page div h2 {
+    text-align: center;
+}
+
+#reading-times-page div h3 {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+span {
+    color: brown;
+}
